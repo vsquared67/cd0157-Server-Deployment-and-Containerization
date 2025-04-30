@@ -23,7 +23,7 @@ def client():
 
 
 def test_health(client):
-    response = client.get('/')
+    # response = client.get('/')
     assert False  # This will cause the test to fail
     # assert response.status_code == 200
     # assert response.json == 'Healthy'
